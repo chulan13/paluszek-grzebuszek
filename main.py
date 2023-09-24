@@ -7,7 +7,7 @@ import time
 from pyfirmata import Arduino, SERVO, util
 
 pin = 10
-port = '/dev/cu.usbserial-1140'
+port = 'ur port (take a look at arduino ide)'
 arduino = Arduino(port)
 
 arduino.digital[pin].mode = SERVO
